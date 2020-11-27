@@ -1,0 +1,39 @@
+{
+	type:'application',
+	name:'Core Tracker',
+	description:'Track your geographical location.',
+	keywords:['gps','location'],
+	shortname:'corestracker',
+	appuid:'com.synchsys.coretracker.20201127.1645',
+	appvid:'20201127.1645',
+	url:'https://github.com/technomada/core-tracker',
+	gen:1,
+	
+  ctrl:{
+			services:[
+        {
+        name:'app',
+
+        image:'technomada/basic-tracker',
+        
+        env: [
+            { 
+            name:'MAPKEY',
+            description:'Your map box key',
+            //type: 'string'
+            }
+          ],
+        
+        urls:[
+          {
+          name:'main',
+          port:3000
+          }
+          ]
+          
+         }
+        ]
+        
+			}
+
+}
