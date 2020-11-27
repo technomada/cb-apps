@@ -1,4 +1,4 @@
 # cloudblast application list
-https://raw.githubusercontent.com/technomada/cb-apps/main/apps/core-soltime.json
-https://raw.githubusercontent.com/technomada/cb-apps/main/apps/core-slides.json
-https://raw.githubusercontent.com/technomada/cb-apps/main/apps/core-tracker.json
+https://raw.githubusercontent.com/technomada/cb-apps/main/apps/core-soltime.txt
+https://raw.githubusercontent.com/technomada/cb-apps/main/apps/core-slides.txt
+https://raw.githubusercontent.com/technomada/cb-apps/main/apps/core-tracker.txt
