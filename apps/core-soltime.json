@@ -1,0 +1,36 @@
+{
+	type:'application',
+	name:'Sol Time',
+	description:'Countdown clock based on sleep cycles.',
+	keywords:['clock','sleep'],
+	shortname:'soltime',
+	appuid:'com.synchsys.soltime.20201127.1645',
+	appvid:'20201127.1645',
+	url:'https://github.com/technomada/core-soltime',
+	gen:1, // inc gen when update version.
+	
+  ctrl:{
+			services:[
+        {
+        name:'app',
+
+        image:'technomada/basic-soltime',
+
+        env:{
+          LAT='$env.LAT',
+          LON='$env.LON'
+          },
+
+        urls:[
+          {
+          name:'main',
+          port:3000
+          }
+          ]
+          
+         }
+        ]
+        
+			}
+
+}
