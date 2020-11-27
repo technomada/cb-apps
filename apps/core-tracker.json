@@ -10,30 +10,30 @@
 	gen:1,
 	
   ctrl:{
-			services:[
-        {
-        name:'app',
+	services:[
+		{
+		name:'app',
 
-        image:'technomada/basic-tracker',
-        
-        env: [
-            { 
-            name:'MAPKEY',
-            description:'Your map box key',
-            //type: 'string'
-            }
-          ],
-        
-        urls:[
-          {
-          name:'main',
-          port:3000
-          }
-          ]
-          
-         }
-        ]
-        
+		image:'technomada/basic-tracker',
+
+		env: [
+		    { 
+		    name:'MAPKEY',
+		    description:'Your map box key',
+		    //type: 'string'
+		    }
+		  ],
+
+		urls:[
+		  {
+		  name:'main',
+		  port:3000
+		  }
+		  ]
+
+		 }
+		]
+
 			}
 
 }
