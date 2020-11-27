@@ -4,4 +4,4 @@
 
 Cloudblast application channel.
 
-See 'apps' for app definition files.definition
+See 'apps' for app definition files.
