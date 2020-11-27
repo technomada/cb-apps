@@ -1,0 +1,31 @@
+{
+	type:'application',
+	name:'Core Slides',
+	description:'Simple way to share a slide presentation.',
+	keywords:['images','presentation'],
+	shortname:'coreslides',
+	appuid:'com.synchsys.coreslides.20201127.1645',
+	appvid:'20201127.1645',
+	url:'https://github.com/technomada/core-slides',
+	gen:1,
+	
+  ctrl:{
+			services:[
+        {
+        name:'app',
+
+        image:'technomada/basic-slides',
+        
+        urls:[
+          {
+          name:'main',
+          port:3000
+          }
+          ]
+          
+         }
+        ]
+        
+			}
+
+}
